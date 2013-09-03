@@ -9,42 +9,6 @@
 if(isset($_POST['submit']))
 {
 	
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (empty($_POST["name"])) {
-        echo "<div class=note>Please Enter Your Name</div>";
-    }
-    else {
-        $name = $_POST["name"];
-    }
- 
-    if (empty($_POST["fname"])) {
-        echo "<div class=note>Please Enter Your Father Name</div>";
-    }
-    else {
-        $address = $_POST["address"];
-    }
- 
-    if (empty($_POST["email"]))  {
-        $emailErr = "Missing";
-    }
-    else {
-        $email = $_POST["email"];
-    }
- 
-    if (!isset($_POST["howMany"])) {
-        $howManyErr = "You must select 1 option";
-    }
-    else {
-        $howMany = $_POST["howMany"];
-    }
- 
-    if (empty($_POST["favFruit"])) {
-        $favFruitErr = "You must select 1 or more";
-    }
-    else {
-        $favFruit = $_POST["favFruit"];
-    }
-}
 
 include 'db.php';
 $degree = $_POST['degree'];
