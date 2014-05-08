@@ -47,21 +47,6 @@ CREATE TABLE IF NOT EXISTS `candidate_details` (
 -- Dumping data for table `candidate_details`
 --
 
-INSERT INTO `candidate_details` (`id`, `name`, `father_name`, `address`, `email_id`, `phone`, `degree`, `branch`, `college`, `year_of_passing`, `class_gcp`) VALUES
-(1, 'Ramesh', 'thiyagarajan', 'Anna Nagar', 'trkrameshkumar@gmail.com', '9884858702', 'MCA', 'COMPUTER APPLICATION', 'Saveetha Engineering Colleg', '2014', '6'),
-(2, 'Vinoth', 'Arokya Raj', 'No: 6/72, North Silver Street, Butt Road, St Thomas Mount ,Chennai-600016', 'vino11560@yahoo.com', '9500149627', 'MCA', 'COMPUTER APPLICATION', 'Saveetha Engineering Colleg', '2015', '70'),
-(3, 'Ramesh Kumar', 'thiyagarajan', 'Anna Nagar', 'trkrameshkumar@gmail.com', '9884858702', 'MEME', 'COMPUTER APPLICATION', 'Saveetha Engineering Colleg', '2014', '70'),
-(4, 'Ramesh Kumar R', 'Kumar', 'thisisisis', 'college@gmail.com', '9988', '---------select---------', '--------------select---------------', '', '2013', '10'),
-(5, 'Ramesh', 'kumar', 'thsadf', 'this@gmail.com', 'sdfsdfsdf', '---------select---------', '--------------select---------------', '', '2013', '8'),
-(6, 'J Rinosha Barveen', 'Kumar', 'thisisisis', 'gurusaicharan03@gmail.com', '9940972576', '---------select---------', '--------------select---------------', '', '2013', '8'),
-(7, 'J Rinosha Barveen', 'Kumar', 'thisisisis', 'gurusaicharan03@gmail.com', '9940972576', '---------select---------', '--------------select---------------', '', '2013', '8'),
-(8, 'Ramesh kumar', 'thiyagarajan', '654654', 'ramesh@gmail.com', 'letters', '---------select---------', '--------------select---------------', '', '2013', '8'),
-(9, 'Balaji N', 'Kumar', 'thisisisis', 'gurusaicharan03@gmail.com', 'leter', '---------select---------', '--------------select---------------', '', '2013', '8'),
-(10, 'Ramesh', 'kumar', 'anna nagar', 'manojtotalk@gmail.com', '9884001831', 'BSc', 'AUTOMOBILE ENGINEERING', '', '2013', '8'),
-(11, 'Ramesh', 'Thiyagarajan', 'No', 'thaniparames59@gmail.com', '9884001831', 'MArch', 'COMPUTER SCIENCE AND ENGG', 'savee', '2013', '8'),
-(12, 'J Rinosha Barveen', 'Kumar', 'thisisisis', 'gurusaicharan03@gmail.com', '9940972576', 'BE', 'COMPUTER SCIENCE AND ENGG', '', '2013', '8'),
-(13, 'Ramesh', 'thiyagarajan', 'No', 'email@gmail.com', '9884858702', '---------select---------', '--------------select---------------', 'thisis', '2013', '8'),
-(14, 'Ramsh', 'thiyagarajan', 'no', 'email@gmail.com', '9884858702', 'ME', 'ELECTRONICS AND COMMUNICATION ENGG.', 'Saveetha Engineering Colleg', '2013', '8');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
